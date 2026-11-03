@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+:root {
+  --paper: #f5f3ec;
+  --surface: #fdfcf8;
+  --ink: #17201b;
+  --muted: #5c665f;
+  --line: #d9d6ca;
+  --accent: #17694a;
+  --accent-soft: #e0ece3;
+  --on-accent: #fdfcf8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #111613;
+    --surface: #181f1b;
+    --ink: #eef0e9;
+    --muted: #9ba69f;
+    --line: #2c3530;
+    --accent: #72cfa2;
+    --accent-soft: #1d2f26;
+    --on-accent: #0d1410;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-instrument-serif);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* Typing indicator */
+@keyframes typing {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  40% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+.typing-dot {
+  animation: typing 1.4s infinite;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-dot {
+    animation: none;
+  }
+}

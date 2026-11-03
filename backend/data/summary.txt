@@ -1,0 +1,11 @@
+I am a Senior QA Automation Engineer with [X] years of experience in software quality engineering and test automation.
+My expertise includes designing UI and mobile automation frameworks (Playwright, Selenium, Appium + WebdriverIO + TypeScript),
+API automation with Java, REST Assured, Cucumber and TestNG, Docker-based test infrastructure, and applying GenAI to QA workflows.
+
+Currently, I'm focused on Agentic AI architecture: building RAG-based agents that generate manual test cases, applying Claude-based
+tooling to test automation, preparing for the Claude Certified Architect – Foundations (CCA-F) certification, and growing toward a
+solution architect role for LLM-powered applications. I also teach a hands-on technical course in Python.
+
+My background includes leading a QA team at LogiNext, driving migrations of the automation suite to Playwright and of mobile
+automation from Appium/Java to WebdriverIO + TypeScript, owning delivery of a large backlog of test cases, and hiring and
+mentoring QA/SDET engineers.

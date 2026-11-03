@@ -1,0 +1,22 @@
+{
+  "full_name": "Vaibhav Sawant",
+  "name": "Vaibhav",
+  "current_role": "Senior QA Automation Engineer at LogiNext",
+  "location": "Thane, Mumbai, India",
+  "email": "vaibhav26sawant@gmail.com",
+  "linkedin": "TODO: linkedin.com/in/<your-handle>",
+  "specialties": [
+    "Test automation architecture (Playwright, Selenium, Appium + WebdriverIO + TypeScript)",
+    "API automation (Java, REST Assured, Cucumber, TestNG)",
+    "GenAI and agentic AI for QA (RAG-based test case generation, Claude-based tooling)",
+    "QA team leadership and SDET hiring"
+  ],
+  "years_experience": null,
+  "education": [
+    {
+      "degree": "TODO: Your Degree",
+      "institution": "TODO: Your University",
+      "year": "TODO"
+    }
+  ]
+}
